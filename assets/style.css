@@ -1,0 +1,580 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1480px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hn__list--right ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+.list__2 {
+    text-decoration: none;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.list__1 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FAC422;
+}
+
+.wrapper {
+    background-image: url(../img/BG--firs--section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header {
+    border-radius: 0px;
+    padding: 20px 0 20px 0;
+}
+
+.hn__right--block {
+    display: flex;
+    gap: 167px;
+    align-items: center;
+}
+
+.bg__span {
+    border-radius: 0px;
+}
+
+.unleash__right--box img {
+    width: 660px;
+}
+
+.hn__contact--right button {
+    padding: 16px 31px;
+    background: none;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
+    outline: #FFFFFF;
+}
+
+.hn__contact--right {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.hn__contact--right button:hover {
+    background: #FAC422;
+    transition: all 0.4s;
+}
+
+.unleash__leaft--box {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.unleash__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first__section {
+    padding: 236px 0 250px 0;
+}
+
+.networks--box ul {
+    transform: rotate(-90deg);
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.networks--box {
+    display: flex;
+}
+
+.networks--box ul a {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+    color: #80858F;
+    text-decoration: none;
+}
+
+.fs__p--1 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #57B8FF;
+    display: flex;
+    align-items: center;
+
+}
+
+.first__section--text h1 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 86px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.fs__p--2 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #999999;
+    margin-top: 45px;
+}
+
+.button__box button:nth-of-type(1) {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #57B8FF;
+    border-radius: 0px;
+    padding: 21px 34px;
+    border: none;
+    outline: none;
+}
+
+.button__box button:nth-of-type(2) {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.button__box {
+    display: flex;
+    gap: 40px;
+    margin-top: 53px;
+}
+
+.button__box button:nth-of-type(1):hover {
+    background: #FAC422;
+    border: #FAC422;
+    transition: all 0.4s;
+}
+
+
+.sponsor__logo {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor__info h3 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222730;
+    text-align: center;
+}
+
+.sponsor__info p {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #555555;
+    max-width: 576px;
+    width: 100%;
+}
+
+.sponsor__logo img {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sponsor__section {
+    background: #FDD04A;
+    border-radius: 0px;
+    padding: 130px 0 130px 0;
+}
+
+.sponsor__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 41px;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop__card--1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.shop__card--left,
+.shop__card--right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop__card {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop__card--1 h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.shop__text p:nth-last-of-type(1) {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(223, 223, 223, 0.8);
+}
+
+.shop__text h1 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+.shop__box {
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+}
+
+.shop__card--1 p {
+    max-width: 470px;
+    width: 100%;
+}
+
+.shop__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop__section {
+    padding: 130px 0;
+    background-image: url(../img/SHOP__bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.video--box {
+    display: flex;
+    gap: 107px;
+    align-items: center;
+    justify-content: center;
+}
+
+.video--box h1 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 13px;
+}
+
+.video--box button {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #57B8FF;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    padding: 21px 34px;
+    margin-top: 54px;
+}
+
+.video--box p:nth-of-type(2) {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(223, 223, 223, 0.8);
+    margin-top: 38px;
+    max-width: 721px;
+    width: 100%;
+}
+
+.video--section {
+    background: #000000;
+    padding: 174px 0 168px 0;
+}
+
+.skin__section {
+    background: #2A313C;
+    border-radius: 0px;
+}
+
+
+.skin__slider {
+    position: relative;
+    height: 100%;
+}
+
+.skin__slider {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 174px;
+    height: 100%;
+}
+
+.skin__slider--text h1 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 74px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.skin__slider--text h1:nth-of-type(1) {
+    margin-top: 13px;
+}
+
+
+.skin__slider--text p:nth-of-type(2) {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(223, 223, 223, 0.8);
+    max-width: 561px;
+    width: 100%;
+    margin-top: 28px;
+}
+
+.skin__text {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.skin__box {
+    display: flex;
+    gap: 128px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skin__slider--img {
+    display: flex;
+    gap: 30px;
+}
+
+.skin__slider--img img {
+    background: #3B3D46;
+    border-radius: 20px;
+    padding: 11px;
+}
+
+.game__block2,
+.game__block3 img {
+    width: 128px;
+}
+
+.game__block1 img {
+    width: 109px;
+}
+
+.game__block2, .game__block3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.game__block1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+}
+.game__block1 h3, .game__block2 h3, .game__block3 h3 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.game__block1 {
+background-image: url(../img/Smooth__FPS__BG.png);
+background-size: cover;
+background-repeat: no-repeat;
+width: 100vh;
+height: 732px;
+
+}
+.game__block2 {
+background-image: url(../img/Multiplayer__bg.png);
+background-size: cover;
+background-repeat: no-repeat;
+width: 100vh;
+height: 732px;
+
+}
+
+.game__block3 {
+    background-image: url(../img/OPen--world--bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 732px;
+}
+
+.game__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.sponsor__logo {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skin__slider--img {
+    flex-wrap: wrap;
+    justify-content: center;
+}
